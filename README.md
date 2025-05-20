@@ -9,5 +9,5 @@ This project uses machine learning to predict Bank Churn
 - Wix
 
 ## Files
-- `nfl_analysis.ipynb`: main notebook
+- `Capstone.ipynb`: main notebook
 - `tableau_link.txt`: link to dashboard
