@@ -22,11 +22,11 @@
 - This model provides high, actionable insight for the bank.
 
 ## Repository 
-Final_Churn_Prediction.ipynb: Primary Analysis Notebook. Contains all data cleaning, preprocessing pipelines (ColumnTransformer), model testing (Regression and Classification), OLS analysis, and the final ~86% churn model.
+- Final_Churn_Prediction.ipynb: Primary analysis notebook covering data cleaning, model validation, and the final 86% predictive model.
 
-Customer-Churn-Records.csv: The raw customer data used for the analysis.
+- Customer-Churn-Records.csv: The raw customer data used for the analysis.
 
-Presentation_Slides.pdf 
+- Presentation_Slides.pdf: High-level summary of findings, technical process, and actionable business insights.
 
 ## Additional Links
 Tableau Interactive Dashboard
