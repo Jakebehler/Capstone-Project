@@ -29,8 +29,7 @@
 - Presentation_Slides.pdf: High-level summary of findings, technical process, and actionable business insights.
 
 ## Additional Links
-- Tableau Interactive Dashboard
-  - https://public.tableau.com/app/profile/jake.behler/vizzes
+- [Tableau Interactive Dashboard](https://public.tableau.com/app/profile/jake.behler/vizzes)
 - PowerPoint Presentation (Summary of findings, technical approach, and business insights)
   - https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?usp=share_link&ouid=106356259358977809628&rtpof=true&sd=true
 - Project Overview (The key findings, model diagnosis, and business insights)
