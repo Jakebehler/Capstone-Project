@@ -1,4 +1,4 @@
-# Bank Customer Churn Predictions
+# Predicting Bank Customer Churn with Gradient Boosting
 ## Project Overview
 
 - This project focuses on analyzing and predicting customer churn for a bank. The primary objective was to build a machine learning model that accurately identifies customers most likely to leave, allowing the bank to implement targeted retention strategies.
@@ -22,7 +22,7 @@
 - This model provides high, actionable insight for the bank.
 
 ## Repository 
-- Final_Churn_Prediction.ipynb: Primary analysis notebook covering data cleaning, model validation, and the final 86% predictive model.
+- Final_Churn_Prediction.ipynb: Primary Jupyter analysis notebook (EDA, data cleaning, model validation, and the final 86% predictive model.
 
 - Customer-Churn-Records.csv: The raw customer data used for the analysis.
 
