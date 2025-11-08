@@ -23,7 +23,9 @@ This model provides high, actionable insight for the bank.
 
 ## Repository 
 Final_Churn_Prediction.ipynb: Primary Analysis Notebook. Contains all data cleaning, preprocessing pipelines (ColumnTransformer), model testing (Regression and Classification), OLS analysis, and the final ~86% churn model.
+
 Customer-Churn-Records.csv: The raw customer data used for the analysis.
+
 Presentation_Slides.pdf 
 
 ## Additional Links
