@@ -18,4 +18,9 @@ This project uses machine learning to predict Customer Bank Churn
 - `tableau_link.txt`: link to dashboard
 
 # Links
+Tableau Interactive Dashboard
 - https://public.tableau.com/app/profile/jake.behler/vizzes
+PowerPoint Presentation
+- https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?usp=share_link&ouid=106356259358977809628&rtpof=true&sd=true
+Project Overview
+- https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?usp=share_link
