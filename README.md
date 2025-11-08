@@ -30,11 +30,8 @@
 
 ## Additional Links
 - [Tableau Interactive Dashboard](https://public.tableau.com/app/profile/jake.behler/vizzes)
-- PowerPoint Presentation (Summary of findings, technical approach, and business insights)
-  - https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?usp=share_link&ouid=106356259358977809628&rtpof=true&sd=true
-- Project Overview (The key findings, model diagnosis, and business insights)
-  - https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?usp=share_link
-
+- [PowerPoint Presentation](https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?usp=share_link&ouid=106356259358977809628&rtpof=true&sd=true) (Summary of findings, technical approach, and business insights)
+- [Project Overview](https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?usp=share_link) (The key findings, model diagnosis, and business insights)
 ## Actionable Business Insights
 - Customers in Germany churn at double the rate of customers in France and Spain
   - Targeted Action: Develop Germany-specific retention programs
