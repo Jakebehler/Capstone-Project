@@ -8,6 +8,11 @@ This project uses machine learning to predict Bank Churn
 - Tableau
 - Wix
 
+## Results Summary
+- Achieved 99.9% accuracy (F1-score: 0.997) using Logistic Regression  
+- Identified “Complain” as the key churn driver (r = 0.996)  
+- Built Tableau dashboard highlighting churn by demographics, geography, and activity level  
+
 ## Files
 - `Capstone.ipynb`: main notebook
 - `tableau_link.txt`: link to dashboard
