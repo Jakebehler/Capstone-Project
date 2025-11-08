@@ -29,12 +29,12 @@
 - Presentation_Slides.pdf: High-level summary of findings, technical process, and actionable business insights.
 
 ## Additional Links
-Tableau Interactive Dashboard
-  https://public.tableau.com/app/profile/jake.behler/vizzes
-PowerPoint Presentation (Summary of findings, technical approach, and business insights)
-  https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?usp=share_link&ouid=106356259358977809628&rtpof=true&sd=true
-Project Overview (The key findings, model diagnosis, and business insights)
-  https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?usp=share_link
+- Tableau Interactive Dashboard
+-   https://public.tableau.com/app/profile/jake.behler/vizzes
+- PowerPoint Presentation (Summary of findings, technical approach, and business insights)
+-   https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?usp=share_link&ouid=106356259358977809628&rtpof=true&sd=true
+- Project Overview (The key findings, model diagnosis, and business insights)
+-   https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?usp=share_link
 
 ## Actionable Business Insights
 Customers in Germany churn at double the rate of customers in France and Spain
@@ -47,11 +47,10 @@ The 45-65 age bracket represents the highest turnover risk
   Targeted Action: Offer specialized support or loyalty rewards to mid-career/older clients.
 
 ## Technology Stack
-Python(Jupyter Notebook): Data manipulation and modeling 
-Libraries: Pandas, NumPy, Scikit-learn (Logistic Regression, Random Forest, Gradient Boosting, SVR, OLS, Lasso)
-Visualization: Tableau (For Visual Analysis)
-Project Delivery: Structured presentation using Wix and PowerPoint for final stakeholder review
-Wix
+- Python(Jupyter Notebook): Data manipulation and modeling 
+- Libraries: Pandas, NumPy, Scikit-learn (Logistic Regression, Random Forest, Gradient Boosting, SVR, OLS, Lasso)
+- Visualization: Tableau (For Visual Analysis)
+- Project Delivery: Structured presentation using Wix and PowerPoint for final stakeholder review
 
 ## Conclusion
-This project demonstrates a full end-to-end data science process, from EDA and model tuning to feature validation and business storytelling which highlights both technical skill and real-world application.
+- This project demonstrates a full end-to-end data science process, from EDA and model tuning to feature validation and business storytelling which highlights both technical skill and real-world application.
