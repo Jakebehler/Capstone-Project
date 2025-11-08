@@ -15,9 +15,9 @@
 
 - Final, Robust Model: After dropping the confounding Complain feature, the Gradient Boosting Classifier delivered a strong, realistic performance:
 
-- Accuracy: ~86%
+- Accuracy: ~**86%**
 
-- Precision (of predicting churn): ~ 75%
+- Precision (of predicting churn): ~ **75%**
 
 - This model provides high, actionable insight for the bank.
 
