@@ -30,21 +30,21 @@
 
 ## Additional Links
 - Tableau Interactive Dashboard
--   https://public.tableau.com/app/profile/jake.behler/vizzes
+  - https://public.tableau.com/app/profile/jake.behler/vizzes
 - PowerPoint Presentation (Summary of findings, technical approach, and business insights)
--   https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?usp=share_link&ouid=106356259358977809628&rtpof=true&sd=true
+  - https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?usp=share_link&ouid=106356259358977809628&rtpof=true&sd=true
 - Project Overview (The key findings, model diagnosis, and business insights)
--   https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?usp=share_link
+  - https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?usp=share_link
 
 ## Actionable Business Insights
-Customers in Germany churn at double the rate of customers in France and Spain
-  Targeted Action: Develop Germany-specific retention programs
-Inactive Members show a significantly higher rate of churn compared to active members
-  Targeted Action: Re-engage inactive members before they leave
-Customers with 3 or 4 products have an extremely high churn rate (up to 100%)
-  Targeted Action: Investigate friction points for multi-product customers (e.g., complexity, fees)
-The 45-65 age bracket represents the highest turnover risk
-  Targeted Action: Offer specialized support or loyalty rewards to mid-career/older clients.
+- Customers in Germany churn at double the rate of customers in France and Spain
+  - Targeted Action: Develop Germany-specific retention programs
+- Inactive Members show a significantly higher rate of churn compared to active members
+  - Targeted Action: Re-engage inactive members before they leave
+- Customers with 3 or 4 products have an extremely high churn rate (up to 100%)
+  - Targeted Action: Investigate friction points for multi-product customers (e.g., complexity, fees)
+- The 45-65 age bracket represents the highest turnover risk
+  - Targeted Action: Offer specialized support or loyalty rewards to mid-career/older clients.
 
 ## Technology Stack
 - Python(Jupyter Notebook): Data manipulation and modeling 
