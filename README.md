@@ -1,4 +1,5 @@
-# Machine Learning Capstone Project: Bank Customer Churn Predictions
+# Bank Customer Churn Predictions
+## Project Overview
 
 This project focuses on analyzing and predicting customer churn for a bank. The primary objective was to build a machine learning model that accurately identifies customers most likely to leave, allowing the bank to implement targeted retention strategies.
 
@@ -25,24 +26,30 @@ This model provides high, actionable insight for the bank.
 - Customer-Churn-Records.csv: The raw customer data used for the analysis.
 - Presentation_Slides.pdf 
 
-## Additinal Links
+## Additional Links
 Tableau Interactive Dashboard
 - https://public.tableau.com/app/profile/jake.behler/vizzes
-PowerPoint Presentation
+PowerPoint Presentation (Summary of findings, technical approach, and business insights)
 - https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?usp=share_link&ouid=106356259358977809628&rtpof=true&sd=true
-Project Overview
+Project Overview (The key findings, model diagnosis, and business insights)
 - https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?usp=share_link
 
+## Actionable Business Insights
+Customers in Germany churn at double the rate of customers in France and Spain
+- Targeted Action: Develop Germany-specific retention programs
+Inactive Members show a significantly higher rate of churn compared to active members
+- Targeted Action: Re-engage inactive members before they leave
+Customers with 3 or 4 products have an extremely high churn rate (up to 100%)
+- Targeted Action: Investigate friction points for multi-product customers (e.g., complexity, fees)
+The 45-65 age bracket represents the highest turnover risk
+- Targeted Action: Offer specialized support or loyalty rewards to mid-career/older clients.
+
 ## Technology Stack
-- Python(Jupyter Notbook): Data manipulation and modeling 
+- Python(Jupyter Notebook): Data manipulation and modeling 
 - Libraries: Pandas, NumPy, Scikit-learn (Logistic Regression, Random Forest, Gradient Boosting, SVR, OLS, Lasso)
 - Visualization: Tableau (For Visual Analysis)
 - Project Delivery: Structured presentation using Wix and PowerPoint for final stakeholder review
 - Wix
 
-## Results Summary
-- Achieved 99.9% accuracy (F1-score: 0.997) using Logistic Regression  
-- Identified “Complain” as the key churn driver (r = 0.996)  
-- Built Tableau dashboard highlighting churn by demographics, geography, and activity level  
-
-
+## Conclusion
+This project demonstrates a full end-to-end data science process, from EDA and model tuning to feature validation and business storytelling which highlights both technical skill and real-world application.
