@@ -1,6 +1,6 @@
 # Capstone Project: Bank Churn
 
-This project uses machine learning to predict Bank Churn
+This project uses machine learning to predict Customer Bank Churn
 
 ## Tools Used
 - Python (pandas, scikit-learn)
@@ -16,3 +16,6 @@ This project uses machine learning to predict Bank Churn
 ## Files
 - `Capstone.ipynb`: main notebook
 - `tableau_link.txt`: link to dashboard
+
+# Links
+- https://public.tableau.com/app/profile/jake.behler/vizzes
