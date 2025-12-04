@@ -20,8 +20,8 @@
 
 ## Additional Links
 - [Tableau Interactive Dashboard](https://public.tableau.com/app/profile/jake.behler/vizzes)
-- [PowerPoint Presentation: Summary of findings, technical approach, and business insights](https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?slide=id.p1#slide=id.p1)
-- [Project Overview: The key findings, model diagnosis, and business insights](https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?tab=t.0)
+- [PowerPoint Presentation](https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?slide=id.p1#slide=id.p1): Summary of findings, technical approach, and business insights
+- [Project Overview](https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?tab=t.0): The key findings, model diagnosis, and business insights]
 
 ## Actionable Business Insights
 - Customers in Germany churn at double the rate of customers in France and Spain
