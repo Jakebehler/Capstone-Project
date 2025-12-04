@@ -23,17 +23,17 @@
 ## Actionable Business Insights
 - Customers in Germany churn at double the rate of customers in France and Spain
   - Targeted Action: Develop Germany-specific retention programs
-Inactive Members show a significantly higher rate of churn compared to active members
-Targeted Action: Re-engage inactive members before they leave
-Customers with 3 or 4 products have an extremely high churn rate (up to 100%)
-Targeted Action: Investigate friction points for multi-product customers (e.g., complexity, fees)
-The 45-65 age bracket represents the highest turnover risk
-Targeted Action: Offer specialized support or loyalty rewards to mid-career/older clients
-Technology Stack
-Python(Jupyter Notebook): Data manipulation and modeling
-Libraries: Pandas, NumPy, Scikit-learn (Logistic Regression, Random Forest, Gradient Boosting, SVR, OLS, Lasso)
-Visualization: Tableau (For Visual Analysis)
-Project Delivery: Structured presentation using Wix and PowerPoint for final stakeholder review
+- Inactive Members show a significantly higher rate of churn compared to active members
+  - Targeted Action: Re-engage inactive members before they leave
+- Customers with 3 or 4 products have an extremely high churn rate (up to 100%)
+  - Targeted Action: Investigate friction points for multi-product customers (e.g., complexity, fees)
+- The 45-65 age bracket represents the highest turnover risk
+  - Targeted Action: Offer specialized support or loyalty rewards to mid-career/older clients
+## Technology Stack
+- Python(Jupyter Notebook): Data manipulation and modeling
+- Libraries: Pandas, NumPy, Scikit-learn (Logistic Regression, Random Forest, Gradient Boosting, SVR, OLS, Lasso)
+- Visualization: Tableau (For Visual Analysis)
+- Project Delivery: Structured presentation using Wix and PowerPoint for final stakeholder review
 
-Conclusion
+## Conclusion
 This project demonstrates a full end-to-end data science process, from EDA and model tuning to feature validation and business storytelling which highlights both technical skill and real-world application.
