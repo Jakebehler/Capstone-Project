@@ -1,4 +1,4 @@
-# Predicting Bank Customer Churn with Gradient Boosting
+## Predicting Bank Customer Churn with Gradient Boosting
 
 # Project Overview
 - This project focuses on analyzing and predicting customer churn for a bank. The primary objective was to build a machine learning model that accurately identifies customers most likely to leave, allowing the bank to implement targeted retention strategies.
