@@ -84,7 +84,7 @@ with stack:
 	st.markdown('* Python(Jupyter Notebook): Data manipulation and modeling')
 	st.markdown('* Libraries: Pandas, NumPy, Scikit-learn (Logistic Regression, Random Forest, Gradient Boosting, SVR, OLS, Lasso)')
 	st.markdown('* Visualization: Tableau (For Visual Analysis)')
-	st.markdown('Project Delivery: Structured presentation using Wix and PowerPoint for final stakeholder review')
+	st.markdown('* Project Delivery: Structured presentation using Wix and PowerPoint for final stakeholder review')
 
 with conclusion:
 	st.header('Conclusion')
@@ -102,11 +102,6 @@ with model_training:
 
 	capstone_complain = capstone.copy()
 	capstone_complain = capstone_complain.drop(columns = ['Complain'])
-
-	sel_col.text('List of features in Data')
-	sel_col.write(capstone_complain.columns)
-
-	input_feature = sel_col.text_input('Which features to include', 'All')
 
 	if n_estimators == 'No limit':
 		GBR_complain = GradientBoostingClassifier(max_depth=max_depth)
@@ -150,6 +145,10 @@ with model_training:
 	X_test_CT_com = CT3.fit_transform(X_test_complain)
 
 	GBR_complain = GradientBoostingClassifier()
+	if n_estimators == 'No limit':
+		GBR_complain = GradientBoostingClassifier(max_depth=max_depth)
+	else:
+		GBR_complain= GradientBoostingClassifier(max_depth=max_depth, n_estimators=n_estimators)
 	GBR_complain.fit(X_train_CT_com, y_train_complain)
 	y_pred_com = GBR_complain.predict(X_test_CT_com)
 	accuracy = accuracy_score(y_test_complain, y_pred_com)
@@ -169,20 +168,3 @@ with model_training:
 
 	disp_col.subheader('Confusion Matrix of Model')
 	disp_col.write(confusion_matrix(y_test_complain, y_pred_com))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
