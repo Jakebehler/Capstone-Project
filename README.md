@@ -10,7 +10,7 @@
 - Feature Leakage Detected: Initial classification models (Logistic Regression, Random Forest) achieved near-perfect accuracy (~ 99.9%). Diagnosis revealed a strong collinearity (0.996 correlation) between the target variable (Exited) and the feature Complain. This implied the "Complain" feature was likely recorded at the time of exit, rendering the perfect model useless for pre-exit prediction.
 - Final, Robust Model: After dropping the confounding Complain feature, the Gradient Boosting Classifier delivered a strong, realistic performance:
 - Accuracy: ~86%
-- Precision (of predicting churn): ~ 75%
+- With 75% precision (Predicting Churn), the bank can accurately target high-risk customers with retention offers while minimizing resources spent on customers who weren't actually going to leave.
 - This model provides high, actionable insight for the bank.
 
 ## Repository
@@ -25,19 +25,23 @@
 - [Streamlit Application](https://capstoneproject-jakebehler.streamlit.app)
 
 ## Actionable Business Insights
-- Customers in Germany churn at double the rate of customers in France and Spain
-  - Targeted Action: Develop Germany-specific retention programs
-- Inactive Members show a significantly higher rate of churn compared to active members
-  - Targeted Action: Re-engage inactive members before they leave
-- Customers with 3 or 4 products have an extremely high churn rate (up to 100%)
-  - Targeted Action: Investigate friction points for multi-product customers (e.g., complexity, fees)
-- The 45-65 age bracket represents the highest turnover risk
-  - Targeted Action: Offer specialized support or loyalty rewards to mid-career/older clients
-## Technology Stack
-- Python(Jupyter Notebook): Data manipulation and modeling
-- Libraries: Pandas, NumPy, Scikit-learn (Logistic Regression, Random Forest, Gradient Boosting, SVR, OLS, Lasso)
-- Visualization: Tableau (For Visual Analysis)
-- Project Delivery: Structured presentation using Wix and PowerPoint for final stakeholder review
+**Geography** 
+- Germany churns at 2x the rate of France/Spain.
+  - Targeted Action: Localize retention offers for the German market.
+**Activity**
+- Inactive members are significantly higher risk.
+  - Targeted Action: Trigger re-engagement campaigns for dormant accounts.
+**Product Usage**
+- 3-4 product holders have nearly 100% churn.
+  - Targeted Action: Investigate fee structures or friction for multi-product users. (e.g., complexity, fees)
+**Demographics**
+- The 45-65 age bracket is the highest risk.
+  - Targeted Action: Targeted loyalty rewards for mid-career/older clients.
+## Technical Skills Demonstrated
+- Machine Learning: Gradient Boosting, Random Forest, Logistic Regression, Feature Leakage Diagnosis.
+- Deployment: Streamlit (Web App), GitHub.
+- BI & Analytics: Tableau (Interactive Dashboards), EDA with Python (Pandas/NumPy).
+- Communication: Stakeholder-ready PowerPoint & Wix project delivery.
 
 ## Conclusion
 This project demonstrates a full end-to-end data science process, from EDA and model tuning to feature validation and business storytelling which highlights both technical skill and real-world application.
