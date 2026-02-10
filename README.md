@@ -13,17 +13,6 @@
 - With 75% precision (Predicting Churn), the bank can accurately target high-risk customers with retention offers while minimizing resources spent on customers who weren't actually going to leave.
 - This model provides high, actionable insight for the bank.
 
-## Repository
-- Final_Churn_Prediction.ipynb: Primary Jupyter analysis notebook (EDA, data cleaning, model validation, and the final 86% predictive model.
-- Customer-Churn-Records.csv: The raw customer data used for the analysis.
-- Presentation_Slides.pdf: High-level summary of findings, technical process, and actionable business insights.
-
-## Additional Links
-- [Tableau Interactive Dashboard](https://public.tableau.com/app/profile/jake.behler/vizzes)
-- [PowerPoint Presentation](https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?slide=id.p1#slide=id.p1): Summary of findings, technical approach, and business insights
-- [Project Overview](https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?tab=t.0): The key findings, model diagnosis, and business insights]
-- [Streamlit Application](https://capstoneproject-jakebehler.streamlit.app)
-
 ## Actionable Business Insights
 **Geography** 
 - Germany churns at 2x the rate of France/Spain.
@@ -42,6 +31,17 @@
 - Deployment: Streamlit (Web App), GitHub.
 - BI & Analytics: Tableau (Interactive Dashboards), EDA with Python (Pandas/NumPy).
 - Communication: Stakeholder-ready PowerPoint & Wix project delivery.
+
+## Additional Links
+- [Tableau Interactive Dashboard](https://public.tableau.com/app/profile/jake.behler/vizzes)
+- [PowerPoint Presentation](https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?slide=id.p1#slide=id.p1): Summary of findings, technical approach, and business insights
+- [Project Overview](https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?tab=t.0): The key findings, model diagnosis, and business insights]
+- [Streamlit Application](https://capstoneproject-jakebehler.streamlit.app)
+
+## Repository
+- Final_Churn_Prediction.ipynb: Primary Jupyter analysis notebook (EDA, data cleaning, model validation, and the final 86% predictive model.
+- Customer-Churn-Records.csv: The raw customer data used for the analysis.
+- Presentation_Slides.pdf: High-level summary of findings, technical process, and actionable business insights.
 
 ## Conclusion
 This project demonstrates a full end-to-end data science process, from EDA and model tuning to feature validation and business storytelling which highlights both technical skill and real-world application.
