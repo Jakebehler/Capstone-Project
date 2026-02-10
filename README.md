@@ -1,15 +1,12 @@
 # Predicting Bank Customer Churn with Gradient Boosting
 
 ## Project Overview
-- This project focuses on analyzing and predicting customer churn for a bank. The primary objective was to build a machine learning model that accurately identifies customers most likely to leave, allowing the bank to implement targeted retention strategies.
-- The analysis involved extensive Exploratory Data Analysis (EDA), testing multiple models, and diagnosing data leakage to deliver a high-value, realistic predictive solution.
+- Developed an end-to-end machine learning pipeline to identify high-risk bank customers. This project demonstrates the transition from raw data exploration to a deployed predictive tool, specifically highlighting the importance of data integrity and feature validation.
 
 ## Key Finding & Model Diagnosis
-- Initial Challenge : The first goal was predicting Customer Tenure (years with the bank) using various regression models. The models consistently failed (r^2 ~ 0), indicating no simple linear or non-linear relationship between features and tenure.
-- The Pivot: The objective was successfully shifted to the binary classification task: predicting Customer Exited (Churn).
-- Feature Leakage Detected: Initial classification models (Logistic Regression, Random Forest) achieved near-perfect accuracy (~ 99.9%). Diagnosis revealed a strong collinearity (0.996 correlation) between the target variable (Exited) and the feature Complain. This implied the "Complain" feature was likely recorded at the time of exit, rendering the perfect model useless for pre-exit prediction.
-- Final, Robust Model: After dropping the confounding Complain feature, the Gradient Boosting Classifier delivered a strong, realistic performance:
-- Accuracy: ~86%
+- The Pivot: Discovered that predicting "Tenure" was not statistically viable (R^2 ≈0), leading to a strategic pivot toward Binary Classification (Churn).
+- Feature Leakage Diagnosis: Identified a 0.996 correlation between Exited and Complain. Recognizing this as data leakage (complaints logged at exit) prevented the deployment of a "perfect" but useless model.
+- Final Model: Deployed a Gradient Boosting Classifier achieving ~86% Accuracy and 75% Precision for churn prediction.
 - With 75% precision (Predicting Churn), the bank can accurately target high-risk customers with retention offers while minimizing resources spent on customers who weren't actually going to leave.
 - This model provides high, actionable insight for the bank.
 
@@ -26,6 +23,7 @@
 **Demographics**
 - The 45-65 age bracket is the highest risk.
   - Targeted Action: Targeted loyalty rewards for mid-career/older clients.
+
 ## Technical Skills Demonstrated
 - Machine Learning: Gradient Boosting, Random Forest, Logistic Regression, Feature Leakage Diagnosis.
 - Deployment: Streamlit (Web App), GitHub.
