@@ -14,12 +14,15 @@
 **Geography** 
 - Germany churns at 2x the rate of France/Spain.
   - Targeted Action: Localize retention offers for the German market.
+ 
 **Activity**
 - Inactive members are significantly higher risk.
   - Targeted Action: Trigger re-engagement campaigns for dormant accounts.
+
 **Product Usage**
 - 3-4 product holders have nearly 100% churn.
   - Targeted Action: Investigate fee structures or friction for multi-product users. (e.g., complexity, fees)
+
 **Demographics**
 - The 45-65 age bracket is the highest risk.
   - Targeted Action: Targeted loyalty rewards for mid-career/older clients.
