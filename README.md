@@ -11,18 +11,18 @@
 - This model provides high, actionable insight for the bank.
 
 ## Actionable Business Insights
-### **Geography** 
-- Germany churns at 2x the rate of France/Spain.
+### **Regional Interventions (Germany)** 
+- Customers in Germany churns at 2x the rate of those in France or Spain.
   - Targeted Action: Localize retention offers for the German market.
 ### **Activity**
 - Inactive members are significantly higher risk.
   - Targeted Action: Trigger re-engagement campaigns for dormant accounts.
-### **Product Usage**
-- 3-4 product holders have nearly 100% churn.
-  - Targeted Action: Investigate fee structures or friction for multi-product users. (e.g., complexity, fees)
-### **Demographics**
-- The 45-65 age bracket is the highest risk.
-  - Targeted Action: Targeted loyalty rewards for mid-career/older clients.
+### **Product Friction Audit (3+ Products)**
+- Customers with 3 or 4 products have nearly a 100% churn rate, likely due to high fees or account complexity.
+  - Targeted Action: Investigate fee structures or friction for multi-product users.
+### **High Risk Demographic Outreach**
+- The 45-65 age bracket represents the highest turnover risk.
+  - Targeted Action: Design loyalty rewards for mid-career/older clients.
 
 ## Technical Skills Demonstrated
 - Machine Learning: Gradient Boosting, Random Forest, Logistic Regression, Feature Leakage Diagnosis.
