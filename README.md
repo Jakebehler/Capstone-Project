@@ -1,10 +1,10 @@
 # Predicting Bank Customer Churn with Gradient Boosting
 
 ## Project Overview
-- Developed an end-to-end machine learning pipeline to identify high-risk bank customers. This project demonstrates the transition from raw data exploration to a deployed predictive tool, specifically highlighting the importance of data integrity and feature validation.
+- Developed an end-to-end machine learning pipeline to identify high-risk bank customers. This project demonstrates a strategic transition from raw data exploration to a deployed predictive tool, specifically highlighting the importance of data integrity and feature validation in a financial services context.
 
 ## Key Finding & Model Diagnosis
-- The Pivot: Discovered that predicting "Tenure" was not statistically viable (R^2 ≈0), leading to a strategic pivot toward Binary Classification (Churn).
+- The Strategic Pivot: Discovered that predicting "Tenure" was not statistically viable (R^2 ≈0), leading to a strategic pivot toward Binary Classification (Churn).
 - Feature Leakage Diagnosis: Identified a 0.996 correlation between Exited and Complain. Recognizing this as data leakage (complaints logged at exit) prevented the deployment of a "perfect" but useless model.
 - Final Model: Deployed a Gradient Boosting Classifier achieving ~86% Accuracy and 75% Precision for churn prediction.
 - With 75% precision (Predicting Churn), the bank can accurately target high-risk customers with retention offers while minimizing resources spent on customers who weren't actually going to leave.
