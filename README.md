@@ -24,7 +24,7 @@
   - Targeted Action: Design loyalty rewards for mid-career/older clients.
 
 ## Technical Skills Demonstrated
-- Machine Learning: Gradient Boosting, Random Forest, Logistic Regression, Feature Leakage Diagnosis.
+- Machine Learning: Gradient Boosting, Random Forest, Logistic Regression, Feature Leakage Diagnosis (scikit-learn).
 - Deployment: Streamlit (Web App), GitHub.
 - BI & Analytics: Tableau (Interactive Dashboards), EDA with Python (Pandas/NumPy).
 - Communication: Stakeholder-ready PowerPoint & Wix project delivery.
@@ -41,4 +41,4 @@
 - Presentation_Slides.pdf: High-level summary of findings, technical process, and actionable business insights.
 
 ## Conclusion
-This project delivers a deployable churn prediction tool and targeted retention strategy that enables a bank to proactively identify at-risk customers before they leave, reducing customer acquisition costs and protecting long-term revenue..
+This project delivers a deployable churn prediction tool and targeted retention strategy that enables a bank to proactively identify at-risk customers before they leave, reducing customer acquisition costs and protecting long-term revenue.
