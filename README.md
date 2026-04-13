@@ -8,11 +8,10 @@
 - Feature Leakage Diagnosis: Identified a 0.996 correlation between Exited and Complain. Recognizing this as data leakage (complaints logged at exit) prevented the deployment of a "perfect" but useless model.
 - Final Model: Deployed a Gradient Boosting Classifier achieving ~86% Accuracy and 75% Precision for churn prediction.
 - With 75% precision (Predicting Churn), the bank can accurately target high-risk customers with retention offers while minimizing resources spent on customers who weren't actually going to leave.
-- This model provides high, actionable insight for the bank.
 
 ## Actionable Business Insights
 ### **Regional Interventions (Germany)** 
-- Customers in Germany churns at 2x the rate of those in France or Spain.
+- Customers in Germany churn at 2x the rate of those in France or Spain.
   - Targeted Action: Localize retention offers for the German market.
 ### **Activity**
 - Inactive members are significantly higher risk.
@@ -42,4 +41,4 @@
 - Presentation_Slides.pdf: High-level summary of findings, technical process, and actionable business insights.
 
 ## Conclusion
-This project demonstrates a full end-to-end data science process, from EDA and model tuning to feature validation and business storytelling which highlights both technical skill and real-world application.
+This project delivers a deployable churn prediction tool and targeted retention strategy that enables a bank to proactively identify at-risk customers before they leave, reducing customer acquisition costs and protecting long-term revenue..
