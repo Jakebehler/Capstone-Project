@@ -1,4 +1,4 @@
-# Executive Summary: Bank Customer Retention Strategy
+# Executive Summary: Bank Customer Churn Analysis
 
 ## Project Overview
 - Developed an end-to-end machine learning and business intelligence pipeline to identify high-risk banking customers. Key focus areas: data integrity, feature validation, and a deployed Streamlit prediction tool backed by Tableau dashboards.
