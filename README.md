@@ -1,4 +1,4 @@
-# Executive Summary: Bank Customer Churn Analysis
+# Bank Customer Churn Analysis: Predicting At-Risk Customers Before They Leave
 
 ## Project Overview
 - Developed an end-to-end machine learning and business intelligence pipeline to identify high-risk banking customers. Key focus areas: data integrity, feature validation, and a deployed Streamlit prediction tool backed by Tableau dashboards.
