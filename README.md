@@ -24,18 +24,17 @@ Developed an end-to-end machine learning and business intelligence pipeline to i
 - The 45-65 age bracket represents the highest turnover risk.
   - Targeted Action: Design loyalty rewards for mid-career/older clients.
 
-
 ## Technical Skills Demonstrated
-- Machine Learning: Gradient Boosting, Random Forest, Logistic Regression, Feature Leakage Diagnosis (scikit-learn).
+- Machine Learning: Gradient Boosting, Random Forest, Logistic Regression (scikit-learn), and Feature Leakage Diagnosis.
 - Deployment: Streamlit (Web App), GitHub.
 - BI & Analytics: Tableau (Interactive Dashboards), EDA with Python (Pandas/NumPy).
 - Communication: Stakeholder-ready PowerPoint & Wix project delivery.
 
 ## Additional Links
-- [Tableau Interactive Dashboard](https://public.tableau.com/app/profile/jake.behler/vizzes)
-- [PowerPoint Presentation](https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?slide=id.p1#slide=id.p1): Summary of findings, technical approach, and business insights
-- [Project Overview](https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?tab=t.0): The key findings, model diagnosis, and business insights]
-- [Streamlit Application](https://capstoneproject-jakebehler.streamlit.app)
+- [Tableau Interactive Dashboard](https://public.tableau.com/app/profile/jake.behler/vizzes): Interactive dashboard visualizing churn patterns by geography, activity, and product usage.
+- [PowerPoint Presentation](https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?slide=id.p1#slide=id.p1): Summary of findings, technical approach, and business insights.
+- [Project Overview](https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?tab=t.0): The key findings, model diagnosis, and business insights.
+- [Streamlit Application](https://capstoneproject-jakebehler.streamlit.app): Deployed prediction tool: enter a customer profile and get a real-time churn risk assessment.
 
 ## Repository
 - Final_Churn_Prediction.ipynb: Primary Jupyter analysis notebook (EDA, data cleaning, model validation, and the final 86% predictive model.
