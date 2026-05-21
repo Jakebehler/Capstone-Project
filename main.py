@@ -35,7 +35,7 @@ with overview:
 
 with dataset:
 	st.header('Customer Churn Dataset')
-	capstone = pd.read_csv('data/Customer-Churn-Records.csv')
+	capstone = capstone = pd.read_csv('Customer-Churn-Records.csv')
 	st.write(capstone.head())
 
 with findings:
