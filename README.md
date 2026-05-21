@@ -8,7 +8,7 @@ Developed an end-to-end machine learning and business intelligence pipeline to i
 ## Key Finding & Model Diagnosis
 - The Strategic Pivot: Discovered that predicting "Tenure" was not statistically viable (R^2 ≈0), leading to a strategic pivot toward Binary Classification (Churn).
 - Feature Leakage Diagnosis: Identified a 0.996 correlation between Exited and Complain. Recognizing this as data leakage (complaints logged at exit) prevented the deployment of a "perfect" but useless model.
-- Final Model: Deployed a Gradient Boosting Classifier achieving ~86% Accuracy and 75% Precision for churn prediction.
+- Final Model: Deployed a Gradient Boosting Classifier achieving ~86% Accuracy and 75% Precision, enabling the bank to target high-risk customers with retention offers while minimizing wasted outreach.
 
 ## Actionable Business Insights
 ### **Regional Interventions (Germany)** 
