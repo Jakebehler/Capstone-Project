@@ -1,5 +1,7 @@
 # Bank Customer Churn Analysis: Predicting At-Risk Customers Before They Leave
 
+**🔴 Live App: [Try the Customer Churn Predictor](https://capstoneproject-jakebehler.streamlit.app)**
+
 ## Project Overview
 Developed an end-to-end machine learning and business intelligence pipeline to identify high-risk banking customers, highlighting the importance of data integrity and feature validation. Key deliverables: a deployed Streamlit prediction tool and Tableau dashboards.
 
