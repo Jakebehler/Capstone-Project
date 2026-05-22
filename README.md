@@ -33,8 +33,8 @@ Developed an end-to-end machine learning and business intelligence pipeline to i
 ## Resources
 - [Streamlit Application](https://capstoneproject-jakebehler.streamlit.app): Deployed prediction tool: enter a customer profile and get a real-time churn risk assessment.
 - [Tableau Interactive Dashboard](https://public.tableau.com/app/profile/jake.behler/vizzes): Interactive dashboard visualizing churn patterns by geography, activity, and product usage.
-- [Jupyter Notebook](Bank Customer Churn Python Code.ipynb): Primary Jupyter analysis notebook (EDA, data cleaning, model validation, and the final 86% predictive model.
-- [Dataset](Customer-Churn-Records.csv): The raw customer data used for the analysis.
+- [Jupyter Notebook](Bank%20Customer%20Churn%20Python%20Code.ipynb): Primary Jupyter analysis notebook (EDA, data cleaning, model validation, and the final 86% predictive model.
+- [Dataset](Bank%20Customer%20Churn%20Records.csv): The raw customer data used for the analysis.
 
 ## Conclusion
 This project delivers a deployable churn prediction tool and targeted retention strategy that enables a bank to proactively identify at-risk customers before they leave, reducing customer acquisition costs and protecting long-term revenue.
