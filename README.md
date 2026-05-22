@@ -28,7 +28,7 @@ Developed an end-to-end machine learning and business intelligence pipeline to i
 - Machine Learning: Gradient Boosting, Random Forest, Logistic Regression (scikit-learn), and Feature Leakage Diagnosis.
 - Deployment: Streamlit (Web App), GitHub.
 - BI & Analytics: Tableau (Interactive Dashboards), EDA with Python (Pandas/NumPy).
-- Communication: Stakeholder-ready PowerPoint & Wix project delivery.
+- Communication: Translating complex findings into stakeholder-ready presentations and business recommendations.
 
 ## Resources
 - [Streamlit Application](https://capstoneproject-jakebehler.streamlit.app): Deployed prediction tool: enter a customer profile and get a real-time churn risk assessment.
