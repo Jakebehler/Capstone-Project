@@ -235,6 +235,34 @@ with predictor:
                 st.markdown(f'- {flag}')
         else:
             st.markdown('- No major individual risk flags detected for this profile.')
+# ── High Risk Customer List ──────────────────────────────────────────────────
+high_risk = st.container()
+
+with high_risk:
+    st.header('High Risk Customer List')
+    st.markdown('Customers from the dataset ranked by predicted churn probability. These are the accounts the bank should prioritize for retention outreach.')
+
+    @st.cache_data
+    def get_high_risk_customers(_model, _transformer, df):
+        data = df.copy().drop(columns=['Complain', 'Exited', 'RowNumber', 'CustomerId', 'Surname'])
+        probs = _model.predict_proba(_transformer.transform(data))[:, 1]
+        result = df[['CustomerId', 'Surname', 'Geography', 'Gender', 'Age', 'NumOfProducts',
+                      'IsActiveMember', 'Balance', 'Tenure']].copy()
+        result['Age'] = (result['Age'] ** 2).round().astype(int)
+        result['Churn Probability'] = probs
+        result['Risk Level'] = result['Churn Probability'].apply(
+            lambda x: '🔴 High' if x >= 0.7 else ('🟡 Medium' if x >= 0.4 else '🟢 Low')
+        )
+        return result.sort_values('Churn Probability', ascending=False).reset_index(drop=True)
+
+    risk_df = get_high_risk_customers(model, transformer, capstone)
+
+    threshold = st.slider('Minimum Churn Probability', min_value=0.5, max_value=0.99, value=0.70, step=0.05, format='%.0f%%')
+    filtered = risk_df[risk_df['Churn Probability'] >= threshold].copy()
+    filtered['Churn Probability'] = filtered['Churn Probability'].apply(lambda x: f'{x:.1%}')
+
+    st.markdown(f"**{len(filtered)} customers** flagged at or above {threshold:.0%} churn probability.")
+    st.dataframe(filtered, use_container_width=True)
  
 # ── Model Performance Metrics ────────────────────────────────────────────────
 with model_metrics:
