@@ -30,16 +30,11 @@ Developed an end-to-end machine learning and business intelligence pipeline to i
 - BI & Analytics: Tableau (Interactive Dashboards), EDA with Python (Pandas/NumPy).
 - Communication: Stakeholder-ready PowerPoint & Wix project delivery.
 
-## Additional Links
-- [Tableau Interactive Dashboard](https://public.tableau.com/app/profile/jake.behler/vizzes): Interactive dashboard visualizing churn patterns by geography, activity, and product usage.
-- [PowerPoint Presentation](https://docs.google.com/presentation/d/1R22e3wNlkY9wL_KnU_M1mPMPR_h9Wkqw/edit?slide=id.p1#slide=id.p1): Summary of findings, technical approach, and business insights.
-- [Project Overview](https://docs.google.com/document/d/17lfmUc0khKmJ3Gxash4rblpGUCPMCENLmlbJ7ue2VdQ/edit?tab=t.0): The key findings, model diagnosis, and business insights.
+## Resources
 - [Streamlit Application](https://capstoneproject-jakebehler.streamlit.app): Deployed prediction tool: enter a customer profile and get a real-time churn risk assessment.
-
-## Repository
-- Final_Churn_Prediction.ipynb: Primary Jupyter analysis notebook (EDA, data cleaning, model validation, and the final 86% predictive model.
-- Customer-Churn-Records.csv: The raw customer data used for the analysis.
-- Presentation_Slides.pdf: High-level summary of findings, technical process, and actionable business insights.
+- [Tableau Interactive Dashboard](https://public.tableau.com/app/profile/jake.behler/vizzes): Interactive dashboard visualizing churn patterns by geography, activity, and product usage.
+- [Jupyter Notebook](Final_Churn_Prediction.ipynb): Primary Jupyter analysis notebook (EDA, data cleaning, model validation, and the final 86% predictive model.
+- [Dataset](Customer-Churn-Records.csv): The raw customer data used for the analysis.
 
 ## Conclusion
 This project delivers a deployable churn prediction tool and targeted retention strategy that enables a bank to proactively identify at-risk customers before they leave, reducing customer acquisition costs and protecting long-term revenue.
