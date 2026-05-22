@@ -257,7 +257,8 @@ with high_risk:
 
     risk_df = get_high_risk_customers(model, transformer, capstone)
 
-    threshold = st.slider('Minimum Churn Probability', min_value=0.5, max_value=0.99, value=0.70, step=0.05, format='%.0f%%')
+    threshold = st.slider('Minimum Churn Probability', min_value=50, max_value=99, value=70, step=5, format='%d%%')
+    threshold = threshold / 100
     filtered = risk_df[risk_df['Churn Probability'] >= threshold].copy()
     filtered['Churn Probability'] = filtered['Churn Probability'].apply(lambda x: f'{x:.1%}')
 
